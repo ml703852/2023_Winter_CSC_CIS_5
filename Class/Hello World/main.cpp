@@ -5,15 +5,15 @@
  * Purpose: Hello World
  *      First Program all programmers write
  *      when testing their IDE for the first
- *      time.
+ *      time. 
  *      C: Programming Language by
  *      Dennis Ritchie and Brian Kernighan
  */
 
 // System Libraries
 #include <iostream> // Input Output Library 
-
 using namespace std;
+
 //User Libraries
 
 //Global Constants not Variables
@@ -32,11 +32,10 @@ int main(int argc, char** argv) {
     //Map/Process the inputs -> Outputs
     
     //Display Inputs/Outputs
-    cout<<"Hello World"<<endl;
+    cout<<"Hello world"<<endl;
     
     //Clean up memory and files
     
     //Exit Program
     return 0;
 }
-
