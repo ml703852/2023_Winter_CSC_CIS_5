@@ -12,7 +12,6 @@
 
 // System Libraries
 #include <iostream> // Input Output Library 
-
 using namespace std;
 //User Libraries
 
@@ -39,4 +38,3 @@ int main(int argc, char** argv) {
     //Exit Program
     return 0;
 }
-
