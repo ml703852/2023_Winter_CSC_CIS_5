@@ -45,7 +45,7 @@ int main(int argc, char** argv) {
     
     //Map/Process the Inputs -> Outputs
     i/=PERCENT;
-    int year;
+    int year=1;
     while(year<=n){
         float interest=sc*i;
         cout<<"  $"<<setw(5)<<interest<<endl;
