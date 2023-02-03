@@ -28,6 +28,8 @@ int main(int argc, char** argv) {
     nFact=1;
     
     //Map/Process the Inputs -> Outputs
+    
+    //Ex: !6 = 1*2*3*4*5*6 = 720
     for(int i=1;i<=n;i++){
         nFact*=i;
     }

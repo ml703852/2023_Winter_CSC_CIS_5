@@ -21,8 +21,8 @@ using namespace std;
 //Execution begins here at main
 int main(int argc, char** argv) {
     //Declare Variables
-    unsigned int n,nFact,nTerms;
-    float x,etox;
+    unsigned int n, nFact, nTerms;
+    float x, etox;
     
     //Initialize Variables
     cout<<"This program calculates e^x"<<endl;
