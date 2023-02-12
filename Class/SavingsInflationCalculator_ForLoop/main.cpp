@@ -23,16 +23,16 @@ int main(int argc, char** argv) {
     //Set random number seed
     
     //Declare Variables
-    float bp,//Initial balance or price $'s
-          sc,//Savings or cost over time $'s
-           i;//Interest, Investment Rate or Inflation Rate %
-    unsigned char n;//Number of compounding periods years     
+    float bp,          //Initial balance or price $'s
+          sc,          //Savings or cost over time $'s
+           i;          //Interest, Investment Rate or Inflation Rate %
+    unsigned char n;   //Number of compounding periods years     
     
     //Initialize Variables
-    n=2.4e1f;//24 years
-    bp=1.0e2f;//$100.00
-    sc=bp;//Initialize our savings or cost
-    i=6;//Inv/Inf rate in Percent
+    n=2.4e1f;    //24 years
+    bp=1.0e2f;   //$100.00
+    sc=bp;       //Initialize our savings or cost
+    i=6;         //Inv/Inf rate in Percent
     
     //Display Header
     cout<<"Savings or Cost Calculator"<<endl<<endl;
